@@ -1,0 +1,10 @@
+p{
+    border: rgb(43, 153, 226);
+    background-color: rgb(255, 208, 255) ;
+}
+h1{
+    color: rgb(75, 45, 62);
+    background-color: aliceblue;
+    border: dashed rgb(8, 4, 8);
+    padding: 1em;
+}
