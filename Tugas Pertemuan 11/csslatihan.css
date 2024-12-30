@@ -1,0 +1,95 @@
+a.smooth {
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 2em;
+    width: 10em;
+    border-radius: 1.5em;
+    color: #fff;
+    background-color: mediumblue;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+a.smooth:hover, a.smooth:focus {
+    background-color: red;
+}
+
+.navbar{
+    background-color: greenyellow;
+    margin-left: 10px;
+}
+
+.navbar:hover{
+    background-color: rosybrown;
+    transition: 2s;
+    box-shadow: 10px,10px,10px blue;
+    border: 1px dashed;
+}
+
+.kotak{
+    background: red;
+    height: 100px;
+    width: 150px;
+    transition: width 2s, height 4s;
+    border-radius: 25px;
+    box-shadow: 10px.10px,10px blue;
+}
+
+.kotak:hover{
+    height: 300px;
+    width: 500px;
+    animation-play-state: running;
+    animation-direction: reverse;
+}
+
+@keyframes warna{
+    0%{background-color: rgb(255, 168, 168);}
+    25%{background-color: rgb(170, 104, 170);}
+    50%{background-color: rgb(111, 211, 214);}
+    75%{background-color: rgb(117, 117, 204);}
+    100%{background-color: rgb(221, 131, 128);}
+}
+
+.kotak{
+    animation-name: warna;
+    animation-play-state: paused;
+    
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+img:hover{
+    transform: scale(1)
+    rotate(20deg)
+    translate(10px,10px)
+    ;
+}
+
+.rounded{
+    border: 1px red;
+    text-align: center;
+    animation-name: berubah;
+    animation-duration: 5s;
+    animation-timing-function: ease-out ;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+    /* text-shadow: 4px,3px,2px, black;*/
+    box-shadow: 2px,3px,2px black;
+    height: max-content;
+    font-size: 40px;
+}
+
+.rounded:hover{
+    transform: scale(2);
+}
+
+@keyframes berubah{
+    0%{background-color: rgb(130, 199, 130);}
+    50%{background-color: rgb(190, 190, 84);}
+    100%{background-color: rgb(245, 155, 155);}
+}
+
+
