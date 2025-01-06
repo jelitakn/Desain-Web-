@@ -1,0 +1,42 @@
+.primer {
+  color: rgb(75, 66, 66);
+  background-color: rgb(164, 164, 228);
+  border: 3px rgb(184, 129, 152) dashed;
+  padding: 3em;
+}
+
+.inverse-primer {
+  color: rgb(164, 164, 228);
+  background-color: rgb(75, 66, 66);
+  border: 3px rgb(184, 129, 152) dashed;
+  padding: 3em;
+  width: 512px;
+}
+
+.aside {
+  color: rgb(164, 164, 228);
+  width: 256px;
+}
+
+nav {
+  text-align: right;
+  background-color: black;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: rgb(164, 164, 228);
+}
+nav ul li a:hover {
+  background-color: rgb(164, 164, 228);
+  color: black;
+}/*# sourceMappingURL=stylelatihan.css.map */

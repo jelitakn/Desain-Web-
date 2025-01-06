@@ -1,0 +1,54 @@
+$warnaPrimer: rgb(164, 164, 228);
+$warnaInverse: rgb(75, 66, 66);
+$warnaSekunder: black;
+$border : 3px rgb(184, 129, 152) dashed;
+$padding : 3em;
+
+$maxSection:1024px;
+
+.primer{
+    color: $warnaInverse;
+    background-color: $warnaPrimer;
+    border: $border;
+    padding: $padding;
+    //width: $maxSection*0,9;
+}
+
+.inverse-primer{
+    color: $warnaPrimer;
+    background-color: $warnaInverse;
+    border: $border;
+    padding: $padding;
+    width: $maxSection*0.5;
+}
+.aside{
+    color: $warnaPrimer;
+    width: $maxSection*0.25;
+}
+
+nav {
+    text-align: right;
+    background-color: $warnaSekunder;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+                color: $warnaPrimer;
+            }
+
+            a:hover{
+                background-color: $warnaPrimer;
+                color: $warnaSekunder;
+            }
+        }
+    }
+}
+

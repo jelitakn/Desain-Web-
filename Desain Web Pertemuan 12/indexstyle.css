@@ -1,0 +1,140 @@
+header {
+  background-color: #688eb8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.title {
+  margin-left: 25px;
+  font-size: 2em;
+  text-align: center;
+  flex-grow: 1;
+}
+
+nav {
+  text-align: right;
+  background-color: rgb(35, 35, 70);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: rgb(204, 195, 255);
+}
+
+nav ul li a:hover {
+  background-color: rgb(164, 164, 228);
+  color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hero {
+  color: #fff;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.hero button {
+  padding: 0.8rem 1.5rem;
+  background: #c8ddc6;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.hero button:hover {
+  background: #5afa3a;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+section h2 {
+  color: #333;
+}
+
+section p {
+  max-width: 600px;
+  margin: 1rem auto;
+  color: #666;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  width: 200px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.image-container img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background: #688eb8;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.hover-text {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.hover-text:hover {
+  color: #2c221f;
+}/*# sourceMappingURL=indexstyle.css.map */
